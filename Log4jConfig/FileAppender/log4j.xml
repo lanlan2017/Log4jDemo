@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration
+    PUBLIC "-//LOG4J//DTD LOG4J//EN"
+    "https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd" >
+<log4j:configuration
+    xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <appender name="FILE" class="org.apache.log4j.FileAppender">
+        <!-- <param name="File" value="${log}/log.out" /> -->
+        <!-- <param name="File" -->
+        <!-- value="E:/workspacne_JDK8Tomcat8.5/Log4jDemo/log.out" /> -->
+        <param name="File" value="log.out" />
+        <param name="ImmediateFlush" value="true" />
+        <param name="Threshold" value="debug" />
+        <param name="Append" value="true" />
+
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="conversionPattern" value="%m%n" />
+        </layout>
+    </appender>
+    <root>
+        <level value="DEBUG" />
+        <appender-ref ref="FILE" />
+    </root>
+</log4j:configuration>
