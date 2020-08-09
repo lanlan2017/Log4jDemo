@@ -2,6 +2,7 @@
 Log4j Demo
 ## 文档
 
+<details><summary>展开/折叠</summary><pre>
 [Log4j教程](https://lanlan2017.github.io/blog/categories/%E7%BC%96%E7%A8%8B/Java/Log4j%E6%95%99%E7%A8%8B/)
 	├─[Log4j概述](https://lanlan2017.github.io/blog/f69dab82/)
 	├─[Log4j安装](https://lanlan2017.github.io/blog/27bc8c92/)
@@ -18,6 +19,8 @@ Log4j Demo
 	├─[Log4j HTMLLayout](https://lanlan2017.github.io/blog/6cc119f/)
 	├─[Log4j PatternLayout](https://lanlan2017.github.io/blog/5c0e8258/)
 	└─[Log4j Debug记录](https://lanlan2017.github.io/blog/2efc4260/)
+</pre></details>
+
 
 
 ## 目录结构
